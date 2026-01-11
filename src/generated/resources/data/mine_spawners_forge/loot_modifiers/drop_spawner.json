@@ -31,7 +31,7 @@
                 "type": "mine_spawners_forge:from_config",
                 "value": "Mine Spawners Config.dropChance"
               },
-              "condition": "minecraft:random_chance"
+              "condition": "minecraft:100_chance"
             },
             {
               "condition": "minecraft:inverted",

@@ -31,7 +31,8 @@
                 "type": "mine_spawners_forge:from_config",
                 "value": "Mine Spawners Config.dropChance"
               },
-              "condition": "minecraft:random_chance"
+              "condition": "minecraft:random.seed(42) # Фиксированное зерно
+print(random.randint(1, 100)) # Всегда выведет одно и то же число"
             },
             {
               "condition": "minecraft:inverted",
